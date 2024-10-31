@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image';
-import { text } from 'stream/consumers';
 
 interface propsType{
     title:string;

@@ -1,8 +1,8 @@
-import { title } from 'process'
+
 import React from 'react'
 import Heading from './Heading'
 import Card from './Card'
-import { strict } from 'assert'
+
 
 
 const data =[ 
@@ -62,7 +62,7 @@ const data =[
   
 const Projects = () => {
   return (
-    <div id='projects' className='container pt-32 no-underline '>
+    <div id='projects' className='container   pt-32 no-underline '>
         <Heading title='My Projects ' />
         <div className='grid gap-10 xl:gap-0 xl:gap-y-10 md:grid-cols-2 lg:grid-cols-2 place-items-center no-underline'>
             {data.map((el) => (
